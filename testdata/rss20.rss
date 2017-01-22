@@ -1,0 +1,457 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+	<channel>
+		<title>Хабрахабр / Все публикации</title>
+		<link>https://habrahabr.ru/</link>
+		<description><![CDATA[Все публикации на Хабрахабре]]></description>
+		<language>ru</language>
+		<managingEditor>editor@habrahabr.ru</managingEditor>
+		<generator>habrahabr.ru</generator>
+		<pubDate>Sun, 01 Jan 2017 18:02:38 GMT</pubDate>
+		<lastBuildDate />
+		<image>
+			<link>https://habrahabr.ru/</link>
+			<url>https://habrahabr.ru/images/logo.png</url>
+			<title>Хабрахабр</title>
+		</image>
+		<item>
+			<title><![CDATA[[Из песочницы] История участия (и почти победы) в ежегодном соревновании Russian AI Cup 2016]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318878/</guid>
+			<link>https://habrahabr.ru/post/318878/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Привет, Хабр! Меня зовут Дичковский Алексей, и я хочу вам рассказать о том, как я потратил полтора месяца своей жизни на написание бота для упрощённой версии DotA.<br/>
+ <br/>
+ Ежегодно компания Mail.ru проводит онлайн-чемпионат по программированию игровых стратегий (<a href="https://habrahabr.ru/company/mailru/blog/314594/">Russian AI Cup 2016</a>). Я принимал участие в данном соревновании в 2012 году (СodeTanks) и, совсем немного, в 2013 (СodeTroopers). В этом году, изрядно наевшись веб разработкой, я решил попробовать принять участие ещё раз. Я изначально не надеялся (но, конечно же, очень хотел) занять какое-либо призовое место и в целом для меня это был скорее тест, насколько я ещё могу реализовать нечто интересное. О том, что из этого получилось, можно прочитать под катом.<br/>
+ <br/>
+ <a href="https://habrastorage.org/files/735/500/824/7355008246ab43e8a526049cee3fbe61.png"><div style="text-align:center;"><img src="https://habrastorage.org/files/b55/ebd/e74/b55ebde74d6a41c083497be1a8f63d34.png" /></div></a><br/>
+ <a href="https://habrahabr.ru/post/318878/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sun, 01 Jan 2017 16:33:11 GMT</pubDate>
+			<dc:creator>DragoonXen</dc:creator>
+			<category><![CDATA[Спортивное программирование]]></category>
+			<category><![CDATA[Программирование]]></category>
+			<category><![CDATA[Алгоритмы]]></category>
+			<category>искуственный интеллект</category>
+			<category>russian ai cup</category>
+		</item>
+		<item>
+			<title><![CDATA[Как написать лучший пост на хабре. 7 ответов, 7 советов]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318872/</guid>
+			<link>https://habrahabr.ru/post/318872/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<img src="https://habrastorage.org/files/7dc/dd0/df2/7dcdd0df2a4c451eb47b2ca76d863afa.png" align="right" width="200" height="256"/><br/>
+ <p>1-го января в 6 утра воскресенья мне пришла мысль поделиться с Хабра-сообществом о том, как писать статьи на хабр, чтобы они попадали в Лучшее. За сутки, за неделю, месяц, и если вы сможете взломать <a href="https://habrahabr.ru/post/70330/">3000 паролей</a> или сделать комикс в духе <a href="https://habrahabr.ru/post/102747/">Фриланс vs. Офис</a>, то и в лучшее за все время!</p><br/>
+ <p>Кто я такой чтобы <s>не пить</s> советовать? — Спросите вы. Не вдаваясь в фаллометрию, я просто люблю писать про IT, а зарабатываю на жизнь разработкой на .NET. За что Microsoft (хотя не только за это), выдал мне ачивку MVP и это мотивирует писать дальше. </p><br/>
+ <p>А официально, началось все с Хабрахабра в 2011-ом году. Когда я, задолбавшийся разбирать индусские С++-вермишелины, отрапортовал в песочницу пост про избыточность С++. При этом не сильно рассчитывая на фидбек или инвайт, а что называется — просто выговориться. Каково было мое удивление, когда через пару дней мне прилетел не один, а 3 инвайта. Сам пост взлетел в Топ-хабра получив <em>275</em> плюсов и висит в “<a href="https://habrahabr.ru/hub/cpp/best/">С++</a> / Лучшее” до сих пор.</p><br/>
+ <p>Так я встал на путь любительского IT-блоггерства. Потом были попытки создать свои тематические блоги про мобильную разработку, стартапы и IT-бизнес. Но времени постоянно постить и PR-ить блог не было, соответственно и трафика тоже полтора человека в день. Поэтому продолжал постить туда, где уже есть аудитория. Был посты на Цукерберг Позвонит (VC.ru), AIN.ua, Geektimes.ru, где-то еще писал, как пить дать. В &amp;nbsp;общей сложности у меня более 50-ти публикаций на тему IT. </p><br/>
+ <p>Поэтому считаю уполномоченным расшарить советы, которые помогут вам писать качественный контент и получать бóльший фидбек от читателей. Будь то рейтинг, карма, избранное и просмотры. И как итог: ↑реальная карма, ↑общий вклад в IT-сообщество, ↑популярность, ↑авторитет, ↑трафик на ваш сайт.</p><br/>
+ <a href="https://habrahabr.ru/post/318872/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sun, 01 Jan 2017 14:51:16 GMT</pubDate>
+			<dc:creator>nrcpp</dc:creator>
+			<category><![CDATA[Контент-маркетинг]]></category>
+			<category><![CDATA[Интернет-маркетинг]]></category>
+			<category><![CDATA[Growth Hacking]]></category>
+			<category><![CDATA[хабрахабр]]></category>
+			<category><![CDATA[хабр торт]]></category>
+			<category><![CDATA[лучшее за неделю]]></category>
+			<category><![CDATA[попасть в топ]]></category>
+			<category><![CDATA[growthhack]]></category>
+			<category><![CDATA[продуктивность]]></category>
+			<category><![CDATA[блогосфера]]></category>
+			<category><![CDATA[книги]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Трудности на пути создания «универсальной» метамодели для моделирования предметных областей]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318874/</guid>
+			<link>https://habrahabr.ru/post/318874/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Для создания модели предметной области сначала строится модель наших представлений. Описание наших представлений содержится в метамодели (например, в нотации BPMN). Метамодели, в свою очередь, строятся на основе мета-метамодели. Однако, наши представления имеют очень непростую структуру, которая до сих пор не имеет формального описания. Поэтому построение метамодели и мета-метамодели сильно затруднено. Попытку описать эту структуру предприняли греки, когда придумали основы логики. Способы нашего мышления изучали математики, когда столкнулись с парадоксами, пытаясь построить основы своей науки. Казалось бы, прогресс есть, но по какой-то причине, остановившись на формальном описании инструментов логического вывода, математики не сделали попытку применить полученные наработки к моделированию нашего мира (наверно, потому что для них – это прикладная задача, не вызывающая интереса). <br/>
+ <br/>
+ <img src="https://habrastorage.org/files/d3f/3fb/ca5/d3f3fbca54e14686a3cb74a9a9581545.jpg"/><br/>
+ <br/>
+ В итоге те принципы, на основе которых создаются нотации и языки моделирования предметных областей, выбираются разработчиками относительно произвольно. Понятно, что созданные таким образом языки моделирования имеют достаточно ограниченную область применения. Эту область должны были бы описать создатели языка, но разработчики, как правило, это требование игнорируют. <br/>
+ <a href="https://habrahabr.ru/post/318874/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sun, 01 Jan 2017 14:36:40 GMT</pubDate>
+			<dc:creator>maxstroy</dc:creator>
+			<category><![CDATA[Семантика]]></category>
+			<category><![CDATA[Проектирование и рефакторинг]]></category>
+			<category><![CDATA[Анализ и проектирование систем]]></category>
+			<category><![CDATA[IT-стандарты]]></category>
+			<category><![CDATA[бизнес-анализ]]></category>
+			<category><![CDATA[моделирование предметной области]]></category>
+			<category><![CDATA[метамодель]]></category>
+			<category><![CDATA[нотация]]></category>
+		</item>
+		<item>
+			<title><![CDATA[[Из песочницы] У «Казаков» секретов нет]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318870/</guid>
+			<link>https://habrahabr.ru/post/318870/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<div style="text-align:center;"><img src="http://cft2.igromania.ru/upload/articles/1044/522415/intro.jpg" alt="image" /></div><br/>
+ Думаю, многие из читателей с добрым словом вспомнят серию игр <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BA%D0%B8_(%D1%81%D0%B5%D1%80%D0%B8%D1%8F_%D0%B8%D0%B3%D1%80)">«Казаки»</a>, многочасовые баталии, военные хитрости и бесподобное звуковое сопровождение — отличная стратегия своего времени. <br/>
+ <br/>
+ Спустя 15 лет они вернулись, и теперь уже в режиме онлайн, о проблемах и уязвимостях новой версии и пойдет речь в данной статье.<br/>
+ <a href="https://habrahabr.ru/post/318870/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sun, 01 Jan 2017 13:37:14 GMT</pubDate>
+			<dc:creator>RevalSoft</dc:creator>
+			<category><![CDATA[Реверс-инжиниринг]]></category>
+			<category><![CDATA[Разработка игр]]></category>
+			<category><![CDATA[Информационная безопасность]]></category>
+			<category>Казаки 3</category>
+			<category>сетевые пакеты</category>
+			<category>как нельзя делать</category>
+		</item>
+		<item>
+			<title><![CDATA[[Из песочницы] Анализ рынка виртуальной реальности 2016]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318868/</guid>
+			<link>https://habrahabr.ru/post/318868/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Условно рынок виртуальной реальности можно разделить на текущий момент на несколько сегментов: производство и продажа устройств виртуальной реальности, аттракци
+]]>
+<![CDATA[
+оны виртуальной реальности, отраслевые решения и разработка приложений виртуальной реальности.<br/>
+ <br/>
+ При этом сами устройства и приложения подразделяются ещё на два сегмента: десктопные, для работы которых требуется персональный компьютер или игровая консоль и мобильные, работающие с обычным смартфоном.<br/>
+ <br/>
+ <h2><b>Производители шлемов виртуальной реальности</b></h2><br/>
+ <b>Производители шлемов виртуальной реальности high-level</b><br/>
+ <br/>
+ Основными игроками среди производителей десктопных шлемов виртуальной реальности в настоящий момент выступают Oculus Rift, HTC Vive, Sony PlayStation VR.<br/>
+ <br/>
+ У Oculus Rift был хороший старт за счёт своего первенства на рынке виртуальной реальности. Благодаря этому Oculus занял центральное положение, объединив вокруг себя среду разработки Unity и разработчиков периферийных устройств. Однако, сложности с совместимостью версий SDK, предоставляемого от Oculus для разработчиков, снижает их желание участвовать в разработке новых приложений, а значит динамика наполнения приложений для этого шлема будет неизбежно снижаться. К тому же конкурент в виде HTC Vive уверенно сравнял счёт по всем техническим качествам и идёт на опережение, предоставляя новые возможности, вроде непосредственного синхронного перемещения в реальном и виртуальном пространстве. Можно с уверенностью говорить, что в ближайшем будущем из этих двух шлемов лидерство займёт HTC Vive, как корпорация с более длительным техническим опытом и возможностями.<br/>
+ <a href="https://habrahabr.ru/post/318868/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sun, 01 Jan 2017 13:08:43 GMT</pubDate>
+			<dc:creator>Emelian1917</dc:creator>
+			<category><![CDATA[Исследования и прогнозы в IT]]></category>
+			<category>виртуальная реальность</category>
+			<category>маркетинг</category>
+			<category>vr corp</category>
+		</item>
+		<item>
+			<title><![CDATA[Как оценить свою публикацию?]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318864/</guid>
+			<link>https://habrahabr.ru/post/318864/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Близится Новый Год. В Хабаровске он уже наступил, поздравляю!<br/>
+ <br/>
+ По традиции, нужно подвести итоги уходящего года, и я решил перечитать свои посты. Перечитать-то перечитал, но как их оценить? Карма? Рейтинг? Просмотры? Слишком сухо и серьезно. Попугаи? Слишком несерьезно. Я решил измерять в Milfgard-ах.<br/>
+ <br/>
+ <a href="https://habrahabr.ru/post/318864/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Итоговый результат: 8 Alizar-ов</a>]]></description>
+			<pubDate>Sat, 31 Dec 2016 19:49:50 GMT</pubDate>
+			<dc:creator>Oxoron</dc:creator>
+			<category><![CDATA[Хабрахабр]]></category>
+			<category><![CDATA[новый год]]></category>
+			<category><![CDATA[с праздником!]]></category>
+			<category><![CDATA[с практическим уклоном.]]></category>
+			<category><![CDATA[несерьезная наука]]></category>
+		</item>
+		<item>
+			<title><![CDATA[[Из песочницы] Построение мобильных приложений с Ember]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318862/</guid>
+			<link>https://habrahabr.ru/post/318862/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<h3>Быстрый способ построить быстрое приложение</h3><br/>
+ Существует страх у разработчиков, что быстрые решения — это проблема. Откуда происходят опасения — в отсутствии возможности масштабирования своего приложения в будущем. Ведь для этого нужно продумать архитектуру! А что если её продумали за вас. Вы же не пытаетесь изобретать велосипед?<br/>
+ <br/>
+ Быстро и масштабируемо — так позиционирует себя экосистема Ember. Фреймворк на JavaScript c понятной современной и расширяемой архитектурой, способный в считанные минуты создать рабочий каркас не только для большого многофункционального сайта, но и для десктопного приложения, используя популярный нынче Electron.<br/>
+ <br/>
+ И вот ведь неугомонно-амбициозный — замахнулся аж даже на нашего, так сказать, мобильного младшего брата. Что из этого вышло — давайте взглянем.<br/>
+ <a href="https://habrahabr.ru/post/318862/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sat, 31 Dec 2016 13:45:27 GMT</pubDate>
+			<dc:creator>titov_andrei</dc:creator>
+			<category><![CDATA[Разработка мобильных приложений]]></category>
+			<category><![CDATA[JavaScript]]></category>
+			<category>ember</category>
+			<category>мобильная разработка</category>
+			<category>cordova</category>
+		</item>
+		<item>
+			<title><![CDATA[«Меня разрывает, когда я не могу писать код» — интервью с Максимом Шафировым, CEO JetBrains]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318842/</guid>
+			<link>https://habrahabr.ru/post/318842/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<img src="https://habrastorage.org/files/318/c9d/e75/318c9de7550645e7a3509065c36803d8.jpg"/><br/>
+ <br/>
+ В новогоднем выпуске «Без слайдов» — <b>Максим <a href="https://habrahabr.ru/users/shafirov/" class="user_link">shafirov</a> Шафиров</b>, CEO компании JetBrains. <br/>
+ <br/>
+ Вот о чем мы поговорили с Максимом:<br/>
+ <br/>
+ <ul>
+ <li>Важен ли для JetBrains российский рынок?</li>
+ <li>Почему Максим не прекращает писать код?</li>
+ <li>Насколько помогает догфудинг и в чём его ограничения?</li>
+ <li>Почему компания редко закрывает продукты?</li>
+ <li>Как появился Kotlin, и какими компания видит его перспективы?</li>
+ <li>Почему компания не была продана, несмотря на щедрые предложения?</li>
+ <li>Как в JetBrains появилась должность PMM?</li>
+ <li>Как JetBrains одновременно конкурируют и сотрудничают с Microsoft?</li>
+ </ul><br/>
+ <br/>
+ <div class="oembed"><div><div style="left: 0px; width: 100%; height: 0px; position: relative; padding-bottom: 56.2493%;"><iframe src="https://www.youtube.com/embed/YJd0-NLb9DA?rel=0&amp;showinfo=1" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="top: 0px; left: 0px; width: 100%; height: 100%; position: absolute;"></iframe></div></div></div><br/>
+ <br/>
+ Как обычно, под катом — полная текстовая расшифровка беседы.<br/>
+ <a href="https://habrahabr.ru/post/318842/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sat, 31 Dec 2016 13:32:04 GMT</pubDate>
+			<dc:creator>23derevo</dc:creator>
+			<category><![CDATA[Управление разработкой]]></category>
+			<category><![CDATA[Управление проектами]]></category>
+			<category><![CDATA[Управление продуктом]]></category>
+			<category><![CDATA[Карьера в IT-индустрии]]></category>
+			<category><![CDATA[Блог компании JUG.ru Group]]></category>
+			<category><![CDATA[без слайдов]]></category>
+			<category><![CDATA[jetbrains]]></category>
+			<category><![CDATA[бизнес]]></category>
+			<category><![CDATA[intellij idea]]></category>
+			<category><![CDATA[resharper]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Включение шифрования TLS / SRTP в 3CX]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318858/</guid>
+			<link>https://habrahabr.ru/post/318858/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Если вы хотите поздравить коллегу с Новым годом так, чтобы это не услышали посторонние,  — стоит воспользоваться возможностью шифрования трафика в 3CX!<br/>
+ <br/>
+ У некоторых пользователей возникают вопросы, связанные с настройкой безопасной передачи голоса в системе. Давайте разберемся, как быстро и просто обезопасить голосовой трафик от прослушки.<br/>
+ <h3>Общие принципы</h3><br/>
+ Перед тем, как перейти к описанию настроек системы, определимся, какой тип шифрования нужно использовать в том или ином случае.<br/>
+ <br/>
+ 1. Удаленные подключения отдельных пользователей (за пределами локальной сети). Шифрование обеспечивает фирменная технология <a href="http://www.3cx.ru/docs/3cx-tunnel-session-border-controller/">3CX Tunnel</a>, встроенная во все клиенты программные 3CX. <strong>Обратите внимание, 3CX Tunnel не предусматривает совместную работу с протоколами шифрования TLS и SRTP.</strong><br/>
+ <br/>
+ 2. Подключение удаленных офисов. Шифрование обеспечивается также технологией 3CX Tunnel, интегрированной в утилиту <a href="http://www.3cx.ru/docs/3cx-tunnel-session-border-controller/#h.pnclxubq0wh9">3CX Session Border Controller</a>. 3CX SBC устанавливается в удаленном офисе на постоянно работающий компьютер или сервер. Кроме шифрования трафика, она обеспечивает проксирование голосового трафика внутри офиса и удаленную автонастройку IP телефонов.<br/>
+ <br/>
+ 3. Локально подключённые программные клиенты 3CX. В данный момент поддерживается TLS / SRTP шифрование для 3CX Client for Windows и Mac. Шифрование можно включить централизованно в интерфейсе 3CX. Однако работу этой технологии мы рассмотрим в одной из следующих статей.<br/>
+ <br/>
+ <a href="http://igorsnezhko.files.wordpress.com/2016/12/image6.png"><div style="text-align:center;"><img title="image" src="https://habrastorage.org/getpro/habr/post_images/419/034/849/419034849796518647a8f4e12a16564d.png" alt="image" width="388" height="587" /></div></a><br/>
+ 4. Локально подключенные аппаратные IP телефоны. Для примера, рассмотрим включение шифрования в популярных телефонах Yealink.<br/>
+ <a href="https://habrahabr.ru/post/318858/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sat, 31 Dec 2016 13:06:06 GMT</pubDate>
+			<dc:creator>snezhko</dc:creator>
+			<category><![CDATA[Системное администрирование]]></category>
+			<category><![CDATA[Сетевые технологии]]></category>
+			<category><![CDATA[Серверное администрирование]]></category>
+			<category><![CDATA[ИТ-инфраструктура]]></category>
+			<category><![CDATA[Блог компании 3CX Ltd.]]></category>
+			<category><![CDATA[3cx]]></category>
+			<category><![CDATA[yealink]]></category>
+			<category><![CDATA[srtp]]></category>
+			<category><![CDATA[tls]]></category>
+			<category><![CDATA[сертификаты]]></category>
+			<category><![CDATA[настройка]]></category>
+			<category><![CDATA[шифрование]]></category>
+			<category><![CDATA[защита]]></category>
+			<category><![CDATA[инструкция]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Сохранность данных не смотря ни на что. Катастрофоустойчивое резервное копирование в облаке Azure Pack Infrastructure]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318856/</guid>
+			<link>https://habrahabr.ru/post/318856/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[С радостью сообщаем об интеграции поддержки катастрофоустойчивого резервного копирования виртуальных машин в облаке <a href="https://infoboxcloud.ru/services/azurepack/">Azure Pack Infrastructure</a> от <a href="https://infoboxcloud.ru">InfoboxCloud</a>! Эта возможность позволит вам быть уверенными, что резервные копии виртуальных машин сохранятся даже при физическом уничтожении <a href="https://www.dataspace.ru">дата-центра</a>, и могут быть восстановлены без перенастройки. <br/>
+ <br/>
+ <a href="https://infoboxcloud.ru/services/azurepack/"><div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/22a/ca3/4b8/22aca34b833d24ebc41d53c11253143b.png" width="500" /></div></a><br/>
+ Давайте посмотрим, зачем же нужно катастрофоустойчивое резервное копирование, как работает и сколько стоит.<br/>
+ <a href="https://habrahabr.ru/post/318856/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sat, 31 Dec 2016 11:53:55 GMT</pubDate>
+			<dc:creator>infobox</dc:creator>
+			<category><![CDATA[Хранение данных]]></category>
+			<category><![CDATA[Хостинг]]></category>
+			<category><![CDATA[Облачные вычисления]]></category>
+			<category><![CDATA[ИТ-инфраструктура]]></category>
+			<category><![CDATA[Блог компании Infobox]]></category>
+			<category><![CDATA[infoboxcloud]]></category>
+			<category><![CDATA[azure pack infrastructure]]></category>
+			<category><![CDATA[infobox]]></category>
+			<category><![CDATA[cloud]]></category>
+			<category><![CDATA[облако]]></category>
+			<category><![CDATA[microsoft azure]]></category>
+			<category><![CDATA[azure backup]]></category>
+			<category><![CDATA[катастрофоустойчивость]]></category>
+			<category><![CDATA[резервный ЦОД]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Школа Данных «Билайн»: с Наступающим]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318820/</guid>
+			<link>https://habrahabr.ru/post/318820/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<img src="https://habrastorage.org/files/95d/e46/453/95de46453bac40e08b6c42b26baf590d.jpg"/><br/>
+ <br/>
+ Итак, заканчивается 2016 год. Для нас он был очень активным. Было 6 выпусков нашего <a href="http://bigdata.beeline.digital">кур
+]]>
+<![CDATA[
+са для аналитиков</a>, 5 выпусков <a href="http://bigdata.beeline.digital/datamba">курса для менеджеров (Data-MBA)</a>. Мы запустили <a href="http://bigdata.beeline.digital/spb">курс в Санкт-Петербурге</a> и уже провели первый выпуск. В партнерстве мы также обучали <a href="https://cs.hse.ru/news/185687734.html">студентов Высшей Школы Экономики</a> и <a href="http://www.cnews.ru/news/line/2016-04-21_bilajn_obuchit_studentov_algoritmam_big_data">Российской Экономической Школы</a>, проводили <a href="https://www.facebook.com/events/1775426812695571/">мастер-классы в Сколково</a>, участвовали в десятках хакатонов по всей стране, консультировали ведущие компании касательно применения аналитики и монетизации данных. В этом году <a href="http://beelineflipboard.ru/flipboard/200716/PR2007_02.html">один из наших преподавателей стал первым в мире в рейтинге Kaggle</a>.<br/>
+ <a href="https://habrahabr.ru/post/318820/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Sat, 31 Dec 2016 07:42:02 GMT</pubDate>
+			<dc:creator>SergeyMarin</dc:creator>
+			<category><![CDATA[Алгоритмы]]></category>
+			<category><![CDATA[R]]></category>
+			<category><![CDATA[Data Mining]]></category>
+			<category><![CDATA[Big Data]]></category>
+			<category><![CDATA[Блог компании ВымпелКом (Билайн)]]></category>
+			<category><![CDATA[машинное обучение]]></category>
+			<category><![CDATA[анализ данных]]></category>
+			<category><![CDATA[анализ социальных сетей]]></category>
+			<category><![CDATA[алгоритмы]]></category>
+			<category><![CDATA[алгоритмы обработки данных]]></category>
+			<category><![CDATA[школа данных]]></category>
+			<category><![CDATA[big data]]></category>
+			<category><![CDATA[data mining]]></category>
+			<category><![CDATA[Kaggle]]></category>
+			<category><![CDATA[sna]]></category>
+			<category><![CDATA[рекомендательные системы]]></category>
+		</item>
+		<item>
+			<title><![CDATA[33C3 CTF Эксплуатируем уязвимость LaTeX'а в задании pdfmaker]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318850/</guid>
+			<link>https://habrahabr.ru/post/318850/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Этот небольшой write-up будет посвящен разбору одного из заданий с недавнего CTF <a href="https://33c3ctf.ccc.ac">33С3</a>. Задания ещё доступны по <a href="https://33c3ctf.ccc.ac/challenges/">ссылке</a>, а пока рассмотрим решение <i>pdfmaker</i> из раздела <i>Misc</i>.<br/>
+ <a href="https://habrahabr.ru/post/318850/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 23:35:46 GMT</pubDate>
+			<dc:creator>GH0st3rs</dc:creator>
+			<category><![CDATA[Информационная безопасность]]></category>
+			<category><![CDATA[CTF]]></category>
+			<category><![CDATA[33С3]]></category>
+			<category><![CDATA[ctf]]></category>
+			<category><![CDATA[vulnerability]]></category>
+			<category><![CDATA[pdflatex]]></category>
+		</item>
+		<item>
+			<title><![CDATA[VulnHub: Разбор IMF 1 и очередное переполнение буфера]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318814/</guid>
+			<link>https://habrahabr.ru/post/318814/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<img src="https://habrastorage.org/files/a14/628/00e/a1462800e3304114b5a0ef997826cf71.png"/><br/>
+ В этот раз рассмотрим Boot2Root <a href="https://www.vulnhub.com/entry/imf-1,162/">IMF 1</a> от <a href="https://www.vulnhub.com/">VulnHub</a>. Имеется 6 флагов, каждый из которых содержит подсказку к получению следующего. Так же рекомендую ознакомиться с <a href="https://habrahabr.ru/users/GH0st3rs/topics/">разборами</a> предыдущих заданий. <a href="https://habrahabr.ru/post/318814/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 21:24:39 GMT</pubDate>
+			<dc:creator>GH0st3rs</dc:creator>
+			<category><![CDATA[Реверс-инжиниринг]]></category>
+			<category><![CDATA[Информационная безопасность]]></category>
+			<category><![CDATA[CTF]]></category>
+			<category><![CDATA[ctf]]></category>
+			<category><![CDATA[vulnerability]]></category>
+			<category><![CDATA[vulnhub]]></category>
+			<category><![CDATA[aslr]]></category>
+			<category><![CDATA[reverse engineering]]></category>
+			<category><![CDATA[ret2reg]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Кодирование с изъятием информации. Часть 1-я, философская]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318848/</guid>
+			<link>https://habrahabr.ru/post/318848/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<p>Написано в сотрудничестве с Р. Бухрадзе и К. Перминовым</p><br/>
+ <h2>1. Введение</h2><br/>
+ <p>Offline oбмен сообщениями сейчас является одним из наиболее популярных способов общения (<a href="http://www.the-village.ru/village/business/figures/250115-messenger">1</a>, <a href="https://spark.ru/startup/546dae36cfa4a/blog/17709/messendzheri-i-boti-vozmozhnosti-dlya-prodvizheniya">2</a>, <a href="https://habrahabr.ru/post/293656/">3</a>) — судя по аудитории способов общения и динамике её роста.</p><br/>
+ <p>При этом, ключевым требованием при обмене сообщениями всегда будет являться полное соответствие отправленного сообщения – полученному, то есть передача данных не должна необратимо искажать сами данные. Естественное желание – сэкономить привело к созданию алгоритмов сжатия данных, которые, убирают естественную избыточность данных минимизируя объём хранимых и передаваемых файлов.</p><br/>
+ <p>Максимально достигаемый объём сжатия, гарантирующий однозначное восстановление данных, определяется работами К. Шеннона по теории информации, и в общем-то является непреодолимым так как изъятие не только избыточной, но и смысловой информации не позволит однозначно восстановить исходное сообщение. Стоит отметить, что отказ от точного восстановления в некоторых случаях и не является критически важным и используется для эффективного сжатия <a href="https://ru.wikipedia.org/wiki/JPEG">графических</a>, <a href="https://ru.wikipedia.org/wiki/MPEG-4">видео</a> и <a href="https://ru.wikipedia.org/wiki/MP3">музыкальных</a> данных, где потеря несущественных элементов оправдана, однако о общем случае целостность данных, куда важнее их размера.</p><br/>
+ <p>Соответственно интересным является вопрос о том, можно-ли не нарушая положения теории информации передать сообщение объёмом меньше, чем минимальный объём, который может быть достигнут при самом лучшем сжатии данных. </p><br/>
+ <a href="https://habrahabr.ru/post/318848/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 21:11:13 GMT</pubDate>
+			<dc:creator>Rumyantsev</dc:creator>
+			<category><![CDATA[Разработка систем передачи данных]]></category>
+			<category><![CDATA[Математика]]></category>
+			<category><![CDATA[Криптография]]></category>
+			<category><![CDATA[сжатие информации]]></category>
+			<category><![CDATA[алгоритмы сжатия данных]]></category>
+			<category><![CDATA[математика]]></category>
+			<category><![CDATA[передача данных]]></category>
+			<category><![CDATA[криптография]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Непрерывная кросс компиляция для Raspberry PI]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318840/</guid>
+			<link>https://habrahabr.ru/post/318840/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<p>Мне хотелось развернуть систему непрерывной интеграции, кросс компилирующую CMake проект написанный на c++ с OpenGL на Raspberry PI. Заодно я хотел посмотреть, не появились ли удобные серверы автоматической сборки, не содержащие в себе питона и не потребляющие сотни мегабайт ram в простое. Одна из целей написания статьи — узнать, не прошёл ли я мимо более хорошего или простого решения :)</p><br/>
+ <p>TLDR: drone классный, позволяет добавить простенький файл в корень репозитория на github/bitbucket — и получить автоматические билды/тесты/деплой. Прямо как в Travis, но self-hosted.</p><br/>
+ <a href="https://habrahabr.ru/post/318840/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 17:18:31 GMT</pubDate>
+			<dc:creator>FL3</dc:creator>
+			<category><![CDATA[Системы сборки]]></category>
+			<category><![CDATA[raspberry pi]]></category>
+			<category><![CDATA[docker]]></category>
+			<category><![CDATA[drone]]></category>
+		</item>
+		<item>
+			<title><![CDATA[Просто Angular]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318682/</guid>
+			<link>https://habrahabr.ru/post/318682/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<div style="text-align:center;"><img src="https://angular.io/resources/images/logos/angular2/angular.svg" width="500" /></div><br/>
+ <h2><b>Введение</b></h2><br/>
+ <p>8-9-го декабря 2016 года была <a href="https://www.youtube.com/watch?v=aJIMoLgqU_o">проведена первая конференция </a>по Angular в Бельгии. <a href="https://github.com/igorminar">Игор Минар</a> (ведущий разработчик Angular) выступил в качестве основного докладчика с несколькими интересными объявлениями относительно того, по какому графику будет выпускаться Angular. И представьте себе, в марте 2017 года нас ждет релиз <a href="https://en.wikipedia.org/wiki/AngularJS#Angular_4">Angular 4</a>. При этом, на данный момент уже опубликована <a href="https://github.com/angular/angular/blob/master/CHANGELOG.md">бета-версия</a>.</p><br/>
+ <h2><b>От переводчиков</b></h2><br/>
+ <p>Всем привет, с вами <a href="https://habrahabr.ru/users/splincodewd/">Максим Иванов</a> и <a href="https://habrahabr.ru/users/blackbaron/">Дмитрий Сергиенков</a>, и сегодня мы выясним куда делась третья версия, и почему мы по-прежнему можем быть верны Angular. Сейчас начинающему фронтенд-разработчику, изучающему JavaScript, довольно трудно определиться: какой же фреймворк или библиотеку им взять и изучить, оставаясь в тренде? Конечно, без слова React, сейчас не обходится ни один разговор на тему фронтенда, однако, в свое время я начал с первой версии Angular, начитался много <a href="https://github.com/toddmotto/angular-styleguide">руководств по написанию фронтенда на ES6</a> (с классами и прочим добром) и до сих пор не жалею. Да, вы можете писать корпоративные приложения с использованием только jQuery, но по мере развития и сложности проекта вы начнете закапывать себя в спагетти-коде, смешивая логику и представление, MV*-фреймворки же этого сделать вам не дадут.</p> <a href="https://habrahabr.ru/post/318682/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 16:20:46 GMT</pubDate>
+			<dc:creator>splincodewd</dc:creator>
+			<category><![CDATA[JavaScript]]></category>
+			<category><![CDATA[AngularJS]]></category>
+			<category><![CDATA[javascript]]></category>
+			<category><![CDATA[angular 4]]></category>
+			<category><![CDATA[angular]]></category>
+			<category><![CDATA[mvc]]></category>
+		</item>
+		<item>
+			<title><![CDATA[[Из песочницы] Хранение php-сессий в Redis с блокировками]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318836/</guid>
+			<link>https://habrahabr.ru/post/318836/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Стандартный механизм хранения данных пользовательских сессий в php — хранение в файлах. Однако при работе приложения на нескольких серверах для балансировки нагрузки, возникает необходимость хранить данные сессий в хранилище, доступном каждому серверу приложения. В этом случае для хранения сессий хорошо подходит <i>Redis</i>. <br/>
+ <br/>
+ Наиболее популярное решение — расширение <a href="https://github.com/phpredis/phpredis">phpredis</a>. Достаточно установить расширение и настроить php.ini и сессии будут автоматически сохраняться в Redis без изменения кода приложений.<br/>
+ <br/>
+ Однако такое решение имеет недостаток — отсутствие блокировки сессии.<br/>
+ <a href="https://habrahabr.ru/post/318836/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 15:38:13 GMT</pubDate>
+			<dc:creator>dmitry-suffi</dc:creator>
+			<category><![CDATA[PHP]]></category>
+			<category>php</category>
+			<category>session</category>
+			<category>redis</category>
+			<category>phpredis</category>
+		</item>
+		<item>
+			<title><![CDATA[[Перевод] Мое знакомство с ReactiveCocoa]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/317992/</guid>
+			<link>https://habrahabr.ru/post/317992/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Честно говоря, я начала использовать ReactiveCocoa, потому что это модно. Я слышу как iOS разработчики говорят об этом фреймворке все время, и я едва могу вспомнить iOS Meetup без упоминание ReactiveCocoa.<br/>
+ <br/>
+ <div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/722/2a9/e2a/7222a9e2ab5ad976481bf9f56aa483dc.jpg" alt="image" /></div><br/>
+ Когда я только начала изучать ReactiveCocoa я не знала что это такое. «Реактивный» звучит действительно здорово, и «функциональный» звучит умно. Но после того как я поддалась искушению овладеть Reactive Cocoa я уже не могу себе представить написания кода без его использования.<br/>
+ <br/>
+ ReactiveCocoa это фреймворк, который открывает окно в мир функционально реактивного программирования. Он позволяет извлечь выгоду из практического применения этой парадигмы, даже не требуя глубоких теоретических знаний FRP. <br/>
+ <a href="https://habrahabr.ru/post/317992/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 15:13:35 GMT</pubDate>
+			<dc:creator>yarmolchuk</dc:creator>
+			<category><![CDATA[Разработка под iOS]]></category>
+			<category><![CDATA[Разработка мобильных приложений]]></category>
+			<category><![CDATA[Objective C]]></category>
+			<category>reactive programming</category>
+			<category>objective-c</category>
+			<category>iOS</category>
+			<category>reactivecocoa</category>
+			<category>cocoa</category>
+			<category>мобильная разработка</category>
+			<category>разработка под ios</category>
+		</item>
+		<item>
+			<title><![CDATA[[Из песочницы] Знакомство с Modbus]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318834/</guid>
+			<link>https://habrahabr.ru/post/318834/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[Modbus — это протокол, который используют поверх TCP сокетов или в RTU варианте поверх работы с Serial портом, или 485 интерфейса насколько это встречалось в моей практике.<br/>
+ <br/>
+ Для протокола существуют открытые спецификации на официальном сайте, где подробно разбирается Modbus по составляющим, правда на английском. Modbus нужен, как правило, чтобы читать регистры с устройств, или записывать в них данные, даже по 1 биту, и еще ряд дополнительных свойств. Это может обеспечить взаимодействие программы и устройства, чтобы считать измеренные устройством данные (заряд батареи, показания вольтметра, температуры) и произвести настройку устройства.<br/>
+ <br/>
+ Кратко покажу что такое modbus rtu:<br/>
+ <br/>
+ <pre><code class="cpp">unsigned char* response; response = new unsigned char[8]; ReadFile(hSer, (char*)response, 8, &amp;size, 0);</code></pre><br/>
+ Так можно прочитать приходящие на сервер запросы modbus rtu. Структура 8 байт. FF это байт.<br/>
+ Может прийти сообщение вида: 02 03 A0 28 00 04 93 2A<br/>
+ <a href="https://habrahabr.ru/post/318834/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 14:46:02 GMT</pubDate>
+			<dc:creator>weterokstudio_ru</dc:creator>
+			<category><![CDATA[C++]]></category>
+			<category><![CDATA[C]]></category>
+			<category>modbus</category>
+			<category>c++</category>
+			<category>c</category>
+			<category>serial</category>
+			<category>tcp</category>
+		</item>
+		<item>
+			<title><![CDATA[[Из песочницы] Распознавание радиотехнических сигналов с помощью нейронных сетей]]></title>
+			<guid isPermaLink="true">https://habrahabr.ru/post/318832/</guid>
+			<link>https://habrahabr.ru/post/318832/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all</link>
+			<description><![CDATA[<p>Тема распознавания сигналов очень актуальна. Распознавание сигналов можно использовать в радиолокации для идентификации объектов, для задач принятия решений, медицине и во многих других областях.</p><br/>
+ <a href="https://habrahabr.ru/post/318832/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=all#habracut">Читать дальше &amp;rarr;</a>]]></description>
+			<pubDate>Fri, 30 Dec 2016 14:42:00 GMT</pubDate>
+			<dc:creator>Zachar_5</dc:creator>
+			<category><![CDATA[Машинное обучение]]></category>
+			<category><![CDATA[Математика]]></category>
+			<category>мат. статистика</category>
+			<category>нейронные сети</category>
+			<category>распознавание сигналов</category>
+		</item>
+	</channel>
+</rss>
