@@ -15,7 +15,9 @@ import (
 const botToken = "botToken"
 
 var guids = make(map[string]interface{}) // map[string]bool
-var conf = make(map[string]interface{})  // map[string]string
+var guidsFilename = "guids.json"
+var conf = make(map[string]interface{}) // map[string]string
+var confFilename = "conf.json"
 
 func main() {
 	done := make(chan bool)
@@ -57,12 +59,13 @@ func sendTeleMessage(c <-chan rss.Item) {
 		text := fmt.Sprintf("%s\n%s", item.Title, guid)
 		bot.SendMessage("@saska_me", text)
 		log.Printf("[Info] sent message to tele: %s", guid)
+		saveGuids(guids)
 	}
 }
 
 func init() {
-	readMapFromJSON("init.json", &guids)
-	readMapFromJSON("conf.json", &conf)
+	readMapFromJSON(guidsFilename, &guids)
+	readMapFromJSON(confFilename, &conf)
 	token, ok := conf[botToken]
 	if !ok || token == "" {
 		log.Fatalf("[Error] can not find botToken in config file\n")
@@ -70,11 +73,7 @@ func init() {
 }
 
 func readMapFromJSON(filename string, mapVar *map[string]interface{}) {
-	file, err := os.Open(filename)
-	if err != nil {
-		log.Fatalf("[Warning] can not open file '%s', %s\n", filename, err.Error())
-	}
-	data, err := ioutil.ReadAll(file)
+	data, err := ioutil.ReadFile(filename)
 	if err != nil {
 		log.Fatalf("[Warning] can not read file '%s'\n", filename)
 	}
@@ -82,4 +81,30 @@ func readMapFromJSON(filename string, mapVar *map[string]interface{}) {
 		log.Fatalf("[Warning] can not unmarshal json from file '%s'\n", filename)
 	}
 	log.Printf("[Info] read data from file: %s:\n%v\n", filename, mapVar)
+}
+
+func saveGuids(guids map[string]interface{}) {
+	// TODO: manage filename outside function, on main function
+	data, err := json.Marshal(guids)
+	if err != nil {
+		log.Printf("[Warning] can not marshal guids: %s", err.Error())
+		return
+	}
+	// TODO: add pretty constants to os.OpenFile
+	file, err := os.OpenFile(guidsFilename, os.O_WRONLY, 0666)
+	if err != nil {
+		log.Printf("[Warning] can not open file: %s, error: %s", guidsFilename, err.Error())
+		return
+	}
+	defer file.Close()
+
+	_, errr := file.Write(data)
+	if errr != nil {
+		log.Printf("[Warning] can not write file: %s", errr.Error())
+	}
+	errrr := file.Sync()
+	if errrr != nil {
+		log.Printf("[Warning] can not sync data to file: %s", errrr.Error())
+	}
+	log.Printf("[Info] guids successfully saved")
 }
