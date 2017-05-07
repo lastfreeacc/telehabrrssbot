@@ -84,13 +84,11 @@ func readMapFromJSON(filename string, mapVar *map[string]interface{}) {
 }
 
 func saveGuids(guids map[string]interface{}) {
-	// TODO: manage filename outside function, on main function
 	data, err := json.Marshal(guids)
 	if err != nil {
 		log.Printf("[Warning] can not marshal guids: %s", err.Error())
 		return
 	}
-	// TODO: add pretty constants to os.OpenFile
 	file, err := os.OpenFile(guidsFilename, os.O_WRONLY, 0666)
 	if err != nil {
 		log.Printf("[Warning] can not open file: %s, error: %s", guidsFilename, err.Error())
@@ -98,13 +96,13 @@ func saveGuids(guids map[string]interface{}) {
 	}
 	defer file.Close()
 
-	_, errr := file.Write(data)
-	if errr != nil {
-		log.Printf("[Warning] can not write file: %s", errr.Error())
+	_, err = file.Write(data)
+	if err != nil {
+		log.Printf("[Warning] can not write file: %s", err.Error())
 	}
-	errrr := file.Sync()
-	if errrr != nil {
-		log.Printf("[Warning] can not sync data to file: %s", errrr.Error())
+	err = file.Sync()
+	if err != nil {
+		log.Printf("[Warning] can not sync data to file: %s", err.Error())
 	}
 	log.Printf("[Info] guids successfully saved")
 }
