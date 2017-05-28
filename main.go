@@ -75,10 +75,10 @@ func init() {
 func readMapFromJSON(filename string, mapVar *map[string]interface{}) {
 	data, err := ioutil.ReadFile(filename)
 	if err != nil {
-		log.Fatalf("[Warning] can not read file '%s'\n", filename)
+		log.Fatalf("[Error] can not read file '%s'\n", filename)
 	}
 	if err := json.Unmarshal(data, mapVar); err != nil {
-		log.Fatalf("[Warning] can not unmarshal json from file '%s'\n", filename)
+		log.Fatalf("[Error] can not unmarshal json from file '%s'\n", filename)
 	}
 	log.Printf("[Info] read data from file: %s:\n%v\n", filename, mapVar)
 }

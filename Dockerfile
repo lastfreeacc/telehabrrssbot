@@ -2,7 +2,7 @@ FROM golang:alpine
 
 # add user
 RUN \
- adduser -s /bin/bash -D bot && \
+ adduser -D bot && \
  mkdir -p /bot && \
  chown -R bot:bot /bot
 
@@ -19,8 +19,7 @@ RUN \
 
 RUN \
  echo "#!/bin/sh" > /bot/exec.sh && \
- echo "/bot/telehabrrssbot" /bot/exec.sh && \
- echo "sleep 5m" /bot/exec.sh && \
+ echo "/bot/telehabrrssbot" >> /bot/exec.sh && \
  chmod +x /bot/exec.sh
 
 USER bot
