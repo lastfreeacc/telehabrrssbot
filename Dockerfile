@@ -24,4 +24,4 @@ RUN \
 
 USER bot
 WORKDIR /bot
-ENTRYPOINT ["exec.sh"]
+ENTRYPOINT ["/bot/exec.sh"]
