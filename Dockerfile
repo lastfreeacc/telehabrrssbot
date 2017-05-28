@@ -20,6 +20,7 @@ RUN \
 RUN \
  echo "#!/bin/sh" > /bot/exec.sh && \
  echo "/bot/telehabrrssbot" /bot/exec.sh && \
+ echo "sleep 5m" /bot/exec.sh && \
  chmod +x /bot/exec.sh
 
 USER bot
