@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    rssbot:
+        build: .
+        container_name: "rssbot"
+        restart: always
+        volumes:
+            - ${PWD}/var/conf.json:/bot/conf.json
+            - ${PWD}/var/guids.json:/bot/guids.json
